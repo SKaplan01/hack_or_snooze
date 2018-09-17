@@ -11,10 +11,12 @@
   margin: 1em;
 }
 
-.li-hidden-favorites {
+.li-hidden-favorites,
+.li-hidden-domain {
   display: none;
 }
 
-.li-hidden-domain {
-  display: none;
+small:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
 }
