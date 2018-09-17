@@ -2,10 +2,19 @@
   background-color: #e9541f;
 }
 
+#submit-link {
+  background: #e9541f;
+  color: white;
+}
+
 .form-row {
   margin: 1em;
 }
 
-.li-hidden {
+.li-hidden-favorites {
+  display: none;
+}
+
+.li-hidden-domain {
   display: none;
 }
